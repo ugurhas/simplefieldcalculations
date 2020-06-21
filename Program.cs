@@ -34,6 +34,10 @@ namespace ConsoleApp2_fonk.örnek_
 
                 Console.WriteLine("Hesaplamak istediğiniz üçgenin alanı: " + ucgenalani(taban, yukseklik));
             }
+            else
+            {
+                Console.WriteLine("Yanlış seçim yaptınız.")
+            }
         }
 
         static int karealani(int kenar)
@@ -42,7 +46,7 @@ namespace ConsoleApp2_fonk.örnek_
         }
 
         static int dairealani(int yaricap)
-        {
+        { 
             return 3 * yaricap * yaricap;
         }
 
