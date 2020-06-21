@@ -36,7 +36,7 @@ namespace ConsoleApp2_fonk.örnek_
             }
             else
             {
-                Console.WriteLine("Yanlış seçim yaptınız.")
+                Console.WriteLine("Yanlış seçim yaptınız.");
             }
         }
 
